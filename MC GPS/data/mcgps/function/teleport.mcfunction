@@ -1,2 +1,0 @@
-execute at @s run summon minecraft:ender_pearl ~ ~ ~ {Tags:["mcgps_teleporter"],NoGravity:1b,Motion:[0d,0d,0d]}
-execute as @e[type=minecraft:ender_pearl,tag=mcgps_teleporter] run function mcgps:example_teleport/teleport_second
