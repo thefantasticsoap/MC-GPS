@@ -35,11 +35,11 @@ scoreboard objectives add d2 dummy
 scoreboard objectives add d3 dummy
 scoreboard objectives add d4 dummy
 
-scoreboard objectives add constP dummy
-scoreboard objectives add constN dummy
+scoreboard objectives add constA dummy
+scoreboard objectives add constB dummy
 
-scoreboard players set calc constN -2
-scoreboard players set calc constP 2
+scoreboard players set mcgps_global constA -2
+scoreboard players set mcgps_globl constB 2
 
 scoreboard objectives add A dummy
 scoreboard objectives add B dummy
