@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": "MC GPS",
+    "frame": "task",
+    "description": [
+      "",
+      {
+        "text": "MC GPS is enabled. Make sure to check out : ",
+        "color": "gray"
+      },
+      {
+        "text": "github.com/thefantasticsoap/MC-GPS",
+        "color": "gold"
+      },
+      {
+        "text": ".\n",
+        "color": "gray"
+      },
+      {
+        "text": "MC GPS was made with love by: ",
+        "color": "gray"
+      },
+      {
+        "text": "TheFantasticSoap.",
+        "color": "aqua"
+      }
+    ],
+    "background": "minecraft:block/amethyst_block",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "mcgps:example_teleport/init"
+  }
+}

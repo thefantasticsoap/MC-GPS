@@ -1,0 +1,2 @@
+execute as @a if score @s mcgps_trigger matches 1 run execute at @s run function mcgps:locate
+execute as @a if score @s mcgps_trigger1 matches 1 run execute at @s run function mcgps:example_teleport/teleport
